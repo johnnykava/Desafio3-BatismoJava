@@ -55,11 +55,11 @@ public class Ninja {
 
     public void mostrarInformacoes(){
         System.out.println("----------------- INFO NINJA -----------------");
-        System.out.println("Nome: " + this.nome);
-        System.out.println("Idade: " + this.idade);
-        System.out.println("Missão: " + this.missao);
-        System.out.println("Nivel da missão: " + this.nivelDificuldade);
-        System.out.println("Status da missão: " + this.statusMissao);
+        System.out.println("Nome: " + getNome());
+        System.out.println("Idade: " + getIdade());
+        System.out.println("Missão: " + getMissao());
+        System.out.println("Nivel da missão: " + getNivelDificuldade());
+        System.out.println("Status da missão: " + getStatusMissao());
         System.out.println("----------------------------------------------");
     }
 }
