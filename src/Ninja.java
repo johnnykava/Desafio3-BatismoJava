@@ -2,10 +2,10 @@ public class Ninja {
     String nome;
     int idade;
     String missao;
-    char nivelDificuldade;
+    String nivelDificuldade;
     String statusMissao;
 
-    public Ninja(String nome, int idade, String missao, char nivelDificuldade, String statusMissao){
+    public Ninja(String nome, int idade, String missao, String nivelDificuldade, String statusMissao){
         this.nome = nome;
         this.idade = idade;
         this.missao = missao;
